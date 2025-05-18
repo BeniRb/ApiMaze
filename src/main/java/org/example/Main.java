@@ -12,6 +12,7 @@ public class Main {
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             GridPanel panel = new GridPanel(points);
             frame.add(new JScrollPane(panel));
+            frame.setSize(800,800);
             frame.pack();
             frame.setLocationRelativeTo(null);
             frame.setVisible(true);

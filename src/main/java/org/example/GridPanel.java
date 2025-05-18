@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Set;
 
 public class GridPanel extends JPanel {
-    private static final int TILE_SIZE = 5;
+    private static final int TILE_SIZE = 15;
 
     private final Set<Point> whitePoints = new HashSet<>();
     private double maxX = 0;
